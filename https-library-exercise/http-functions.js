@@ -10,7 +10,8 @@ module.exports = function getHTML (options, callBack) {
           for (var i = 0; i < data.length; i++) {
             string = string + data[i] + '\n'
           }
-          callBack(data);
+          console.log("hello");
+          // callBack(string);
         });
       });
     }
